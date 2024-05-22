@@ -1,0 +1,57 @@
+.footer {
+
+width: 100%;
+bottom: 0;
+left: 0;
+background: rgb(42, 41, 41);
+color: white;
+}
+.footer .content  {
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   justify-content: space-between;
+   
+   
+}
+.content .details ul {
+    color: peru;
+}
+.content .details li {
+    font-size: 1rem;
+    list-style-type: square;
+    color: white;
+}
+
+.input-box label {
+    font-size: 1.5rem;
+}
+
+.input-box input, textarea{
+    margin-bottom: 1rem;
+     padding: 8px 15px;
+     font-size: 1.2rem;
+     background-color: rgba(255, 255, 255, 0);
+     border-color: rgba(255, 255, 255, 0.2);
+     color: white;
+    
+}
+
+.input-box h3 {
+   font-size: 2rem;
+   color: peru;
+}
+.btn-btn {
+    padding: 10px;
+    margin: 2px;
+    color: black;
+    background: yellow;
+}
+@media screen and (max-width: 1040px){
+    .footer .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}

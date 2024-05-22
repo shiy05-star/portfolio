@@ -1,0 +1,16 @@
+.design {
+    width: 100%;
+    height: auto;
+    background: url(https://www.4cpl.tech/ast/uploads/2023/06/Web-Development.jpg);
+    background-size: cover;
+    color: azure;
+   
+}  
+.app-design  h3 {
+   font-size: 2rem;
+   font-weight: 200;
+} 
+.app-design p{
+    font-size: 1.2rem;
+    font-family: serif;
+}
